@@ -4,10 +4,10 @@ const App = () => {
   
 
   return (
-    <>
+    <main className="bg-black">
+      NAvbar
       
-      <h1>Vite + React</h1>
-    </>
+    </main>
   )
 }
 
