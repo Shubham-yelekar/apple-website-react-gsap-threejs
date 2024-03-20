@@ -2,6 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* FONTS  */
+
+@font-face {
+  font-family: 'sf-pro-display-med';
+  src: url('/assets/fonts/SF-Pro-Display-Medium.otf') format('opentype');
+  /* You can add other font formats if needed */
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'sf-pro-display-reg';
+  src: url('/assets/fonts/SF-Pro-Display-Regular.otf') format('opentype');
+  /* You can add other font formats if needed */
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'sf-pro-text-med';
+  src: url('/assets/fonts/SF-Pro-Text-Medium.otf') format('opentype');
+  /* You can add other font formats if needed */
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'sf-pro-text-reg';
+  src: url('/assets/fonts/SF-Pro-Display-Regular.otf') format('opentype');
+  /* You can add other font formats if needed */
+  font-weight: 400;
+}
+
+
+
+
+
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +51,7 @@ body {
   background: #000;
   border-color: #3b3b3b;
   user-select: none;
+  font-family: 'sf-pro-display-med',  ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 canvas {
