@@ -26,7 +26,7 @@ const Hero = () => {
     useGSAP(()=>{
       gsap.to('#hero', {opacity: 1,delay:1.5,})
       gsap.to('#cta', { opacity: 1, y: -50, delay: 2})
-      gsap.to('#cta-text', {opacity: 1, y: -5, delay: 2.2})
+      gsap.to('#cta-text', {opacity: 1, y: -5, delay: 2.3})
     },[])
 
 
@@ -43,7 +43,7 @@ const Hero = () => {
       <div>
         <div id='cta' className='flex flex-col items-center opacity-0 translate-y-20'>
           <a href="#highlights" className='btn'>Buy</a>
-          <p id='cta-text' className='font-normal text-xl translate-y-30'>From ₹21483.00/mo.‡ or ₹134900.00*</p>
+          <p id='cta-text' className='opacity-0 font-normal text-xl translate-y-30'>From ₹21483.00/mo.‡ or ₹134900.00*</p>
         </div>
       </div>
     </section>
