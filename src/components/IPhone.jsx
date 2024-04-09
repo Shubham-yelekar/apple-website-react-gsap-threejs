@@ -163,7 +163,7 @@ function Model(props) {
       />
       <mesh
         castShadow
-        receiveShadow
+        receiveShadow 
         geometry={nodes.EddVrWkqZTlvmci.geometry}
         material={materials.xNrofRCqOXXHVZt}
         scale={0.01}
